@@ -68,7 +68,7 @@ const Navbar = () => {
         >
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">JobMatch</span>
               <Image src="/logo 1.png" width={50} height={50} alt="star logo" />
             </Link>
           </div>
@@ -135,7 +135,7 @@ const Navbar = () => {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center gap-x-6">
               <Link href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">JobMatch</span>
                 <Image
                   width={50}
                   height={50}
